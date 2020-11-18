@@ -9,11 +9,11 @@ pipeline {
               git branch: 'main', url: 'https://github.com/maruthi1990/sample_maven_project.git'
            }
         }
-        stage('Maven Install package'){
-           steps {
-              sh 'clean install package'
-           }
-        }
+        //stage('Maven Install package'){
+          // steps {
+             // sh 'clean install package'
+          // }
+        //}
         
     }    
 }		
