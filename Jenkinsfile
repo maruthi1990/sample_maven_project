@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Java Webapp Code Pull'){
            steps {
-              git branch: 'main', url: 'https://github.com/phani-rudra9/simpe-java-maven-app.git'
+              git branch: 'main', url: 'https://github.com/maruthi1990/sample_maven_project.git'
            }
         }
         stage('Maven Install package'){
